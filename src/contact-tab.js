@@ -1,7 +1,7 @@
 import vaneAndPercivalPng from "./images/contact/vane-and-percival.png";
-import siegfriedAndLancealotPng from "./images/contact/siegfried-and-lancealot.png";
+import siegfriedAndLancelotPng from "./images/contact/siegfried-and-lancelot.png";
 
-export default function contactTab() {
+export default function loadContactTab() {
   const contentDiv = document.querySelector("#content");
 
   const contactUsHeader = document.createElement("h1");
@@ -16,14 +16,14 @@ export default function contactTab() {
     "alt",
     "A man with yellow hair wearing a beret, white t-shirt and black pants standing next to a man with red hair wearing a greyish-brown dress shirt and white pants"
   );
-  const siegfriedAndLancealotImage = new Image();
-  siegfriedAndLancealotImage.src = siegfriedAndLancealotPng;
-  siegfriedAndLancealotImage.setAttribute(
+  const siegfriedAndLancelotImage = new Image();
+  siegfriedAndLancelotImage.src = siegfriedAndLancelotPng;
+  siegfriedAndLancelotImage.setAttribute(
     "alt",
     "A man with brown hair wearing a blueish chef jacket and black pants standing next to a man with black hair wearing a waiters outfit"
   );
   contactImagesDiv.appendChild(vaneAndPercivalImage);
-  contactImagesDiv.appendChild(siegfriedAndLancealotImage);
+  contactImagesDiv.appendChild(siegfriedAndLancelotImage);
   contentDiv.appendChild(contactImagesDiv);
 
   const contactParagraph = document.createElement("p");

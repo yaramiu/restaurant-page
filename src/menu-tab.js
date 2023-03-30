@@ -9,7 +9,7 @@ import flanPng from "./images/menu/desserts/rich-and-creamy-flan.png";
 import coffeePng from "./images/menu/beverages/kopi-leol.png";
 import teaPng from "./images/menu/beverages/rugosa-floral-tea.png";
 
-export default function menuTab() {
+export default function loadMenuTab() {
   const contentDiv = document.querySelector("#content");
 
   const menuHeader = document.createElement("h1");

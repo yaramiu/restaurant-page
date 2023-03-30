@@ -1,6 +1,51 @@
 body {
   background-color: skyblue;
   font-size: 1.1rem;
+  margin: 0;
+}
+
+.header {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: lightblue;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.home,
+.menu,
+.contact {
+  height: 7vh;
+  width: 7vw;
+  border-radius: 5px 5px 0 0;
+  border-width: 1px;
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.home:focus,
+.menu:focus,
+.contact:focus {
+  background-color: darkblue;
+}
+
+.home {
+  margin: 0 20px 0 0;
+}
+
+.menu {
+  margin: 0 0 0 0;
+}
+
+.contact {
+  margin: 0 0 0 20px;
 }
 
 #content {
@@ -8,14 +53,34 @@ body {
   place-items: center;
 }
 
-.entrees, .soups, .desserts, .beverages {
+.exterior-image {
+  margin: 23.584px 0 0 0;
+}
+
+.entrees,
+.soups,
+.desserts,
+.beverages {
   display: flex;
   column-gap: 30px;
 }
 
-.quiche, .pate, .fish, .chateaubriand, .guineafowl-soup, .cream-of-mushroom-soup, .sorbet, .flan, .coffee, .tea {
+.quiche,
+.pate,
+.fish,
+.chateaubriand,
+.guineafowl-soup,
+.cream-of-mushroom-soup,
+.sorbet,
+.flan,
+.coffee,
+.tea {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.beverages {
+  margin-bottom: 23.584px;
 }
