@@ -1,8 +1,21 @@
 body {
   background-color: skyblue;
+  font-size: 1.1rem;
 }
 
 #content {
   display: grid;
   place-items: center;
+}
+
+.entrees, .soups, .desserts, .beverages {
+  display: flex;
+  column-gap: 30px;
+}
+
+.quiche, .pate, .fish, .chateaubriand, .guineafowl-soup, .cream-of-mushroom-soup, .sorbet, .flan, .coffee, .tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

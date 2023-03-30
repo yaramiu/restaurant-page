@@ -1,4 +1,4 @@
-import restaurantExteriorPng from "./bistro-feendrache-restaurant-exterior-daytime.png";
+import restaurantExteriorPng from "./images/main/bistro-feendrache-restaurant-exterior-daytime.png";
 
 export default function initializePageLoad() {
   const contentDiv = document.querySelector("#content");
